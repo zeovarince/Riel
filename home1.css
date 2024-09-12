@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: blue;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  background-color: blue;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgb(255, 255, 255);
+  width: 90%;
+  text-align: left;
+  margin-top: 20px;
+}
+.container p {
+  text-align: justify;
+}
+
+img {
+  width: 200px;
+  height: 300px;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+h2 {
+  font-size: 23px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+p {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.friends {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  width: 86%;
+  height: 90%;
+  gap: 20px;
+}
+
+.friend-container {
+  background-color: blue;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+  width: 90%;
+  text-align: center;
+}
